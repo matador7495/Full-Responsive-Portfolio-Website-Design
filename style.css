@@ -168,40 +168,48 @@ span {
     top: 6px;
     right: 6px;
 }
-header.sticky{
+
+header.sticky {
     padding: 12px 15%;
     background-color: var(--main-color);
 }
-.sticky .navbar a::after{
+
+.sticky .navbar a::after {
     background-color: var(--text-color);
 }
-.sticky .h-btn{
+
+.sticky .h-btn {
     background-color: var(--text-color);
     color: #000;
 }
-.about{
+
+.about {
     background-color: var(--secound-bg-color);
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
     grid-gap: 2rem;
 }
-.about-img img{
+
+.about-img img {
     max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 10px;
 }
-.about-text h2{
+
+.about-text h2 {
     font-size: var(--h2-font);
     margin-bottom: 20px;
 }
-.about-text h5{
+
+.about-text h5 {
     font-size: 28px;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
-.about-text p{
+
+.about-text p {
     color: var(--secound-color);
     letter-spacing: 1px;
     line-height: 28px;
@@ -209,7 +217,8 @@ header.sticky{
     font-size: var(--p-font);
     margin-bottom: 45px;
 }
-.btn{
+
+.btn {
     display: inline-block;
     background-color: var(--main-color);
     color: var(--text-color);
@@ -219,8 +228,68 @@ header.sticky{
     border-radius: 30px;
     transition: ease 0.35s;
 }
-.btn:hover{
+
+.btn:hover {
     transform: translateY(-8px);
     background-color: transparent;
     border: 2px solid var(--main-color);
+}
+
+.services {
+    background-color: var(--bg-color);
+}
+
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    font-size: var(--h2-font);
+    margin-bottom: 15px;
+}
+
+.center p {
+    color: var(--secound-color);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: var(--p-font);
+}
+
+.services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+    grid-gap: 2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.row {
+    background-color: var(--secound-bg-color);
+    padding: 55px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.35s;
+}
+
+.row i {
+    color: var(--main-color);
+    margin-bottom: 20px;
+    font-size: 2.7rem;
+}
+
+.row h3 {
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.row p {
+    color: var(--secound-color);
+    line-height: 30px;
+    font-size: var(--p-font);
+}
+
+.row:hover {
+    transform: translateY(-8px);
 }
