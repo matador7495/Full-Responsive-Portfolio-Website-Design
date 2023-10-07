@@ -399,3 +399,15 @@ form textarea {
     transform: translateY(-8px);
     cursor: pointer;
 }
+
+footer {
+    text-align: center;
+    background-color: var(--secound-bg-color);
+    padding: 34px;
+}
+
+footer p {
+    color: var(--secound-color);
+    font-size: 17px;
+    letter-spacing: 1px;
+}
