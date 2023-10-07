@@ -332,3 +332,70 @@ header.sticky {
 .box:hover img {
     transform: scale(1.1);
 }
+
+.contact {
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 3rem;
+}
+
+.contact-img img {
+    max-width: 100%;
+    width: 700;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    font-size: var(--h2-font);
+    margin-bottom: 15px;
+}
+
+.contact-form p {
+    color: var(--secound-color);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: var(--p-font);
+    margin-bottom: 4.1rem;
+}
+
+.contact-form form {
+    position: relative;
+}
+
+.contact-form form input,
+form textarea {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background-color: var(--secound-bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .send {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 200px;
+    transition: ease 0.35s;
+    text-transform: uppercase;
+}
+
+.contact-form form .send:hover {
+    transform: translateY(-8px);
+    cursor: pointer;
+}
